@@ -1,11 +1,12 @@
-PORT        | STATUS                 | SERVICE         | TIME          Port no: 80 | Open                   | http            | 0.011379
-Port no: 81 | 10035(closed/filtered) | hosts2-ns       | 1.012745
-Port no: 82 | 10035(closed/filtered) | Unknown         | 1.006125
-Port no: 83 | 10035(closed/filtered) | Unknown         | 1.010535
-Port no: 84 | 10035(closed/filtered) | Unknown         | 1.011191
-Port no: 85 | 10035(closed/filtered) | Unknown         | 1.013715
-Port no: 86 | 10035(closed/filtered) | Unknown         | 1.008632
-Port no: 87 | 10035(closed/filtered) | Unknown         | 1.012184
-Port no: 88 | 10035(closed/filtered) | kerberos        | 1.010191
-Port no: 89 | 10035(closed/filtered) | Unknown         | 1.009363
-Port no: 90 | 10035(closed/filtered) | Unknown         | 1.009754
+PORT        | STATUS                 | SERVICE         | TIME          
+Port no: 80 | Open                   | http            | 0.013334
+Port no: 81 | 10035(closed/filtered) | hosts2-ns       | 1.004067
+Port no: 82 | 10035(closed/filtered) | Unknown         | 1.000821
+Port no: 83 | 10035(closed/filtered) | Unknown         | 0.999027
+Port no: 84 | 10035(closed/filtered) | Unknown         | 1.008587
+Port no: 85 | 10035(closed/filtered) | Unknown         | 1.008893
+Port no: 86 | 10035(closed/filtered) | Unknown         | 1.004939
+Port no: 87 | 10035(closed/filtered) | Unknown         | 1.008413
+Port no: 88 | 10035(closed/filtered) | kerberos        | 0.996370
+Port no: 89 | 10035(closed/filtered) | Unknown         | 1.000488
+Port no: 90 | 10035(closed/filtered) | Unknown         | 1.005868
