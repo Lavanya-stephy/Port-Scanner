@@ -1,14 +1,15 @@
 import socket
 import time
 from tqdm import tqdm
-
+import sys
+import color
 
 def host_name(val):
     try:
         return socket.gethostbyname(val)
     except socket.gaierror:
-        print("Invalid Hostname")
-        return 
+        print(color.red+"\nInvalid Hostname or IP address\nTry again!!")
+        sys.exit()
 
 def port_scan(ip,st,end):
     re=[]

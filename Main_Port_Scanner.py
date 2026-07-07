@@ -2,11 +2,9 @@ import Scanner
 import color
 import report
 
-val=input("Host or IP? ").lower()
-if val=="host":
-    ip=Scanner.host_name(input("Enter Host name: "))
-elif val=="ip":
-    ip=input("Enter IP address: ")
+val=input("Enter Host name or IP address: ")
+ip=Scanner.host_name(val)
+
 
 rg=list(map(int,input("Enter your range (seperated by ,) :").split(",")))
 
@@ -28,7 +26,11 @@ for port,st,ser,t in result:
         co=color.red
     print(f"Port no: {port} | {co}{st:<22}{color.reset} | {ser:<15} | {f"{t:.6f}s":<15}")
 
-report.scan_report(result)
+print("-"*130)
+s=input("Do you want to save the report? (yes/no) ").lower()
+if s=="yes" :
+    report.scan_report(result)
+    print("\nREPORT SAVED SUCCESSFULLY")
 
 
 
