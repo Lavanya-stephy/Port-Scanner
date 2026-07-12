@@ -1,7 +1,12 @@
 PORT        | STATUS                 | SERVICE         | TIME          
-Port no: 20 | 10035(closed/filtered) | ftp-data        | 0.996764
-Port no: 21 | 10035(closed/filtered) | ftp             | 1.002934
-Port no: 22 | 10035(closed/filtered) | ssh             | 1.006472
-Port no: 23 | 10035(closed/filtered) | telnet          | 1.006998
-Port no: 24 | 10035(closed/filtered) | Unknown         | 1.014483
-Port no: 25 | 10035(closed/filtered) | smtp            | 1.006076
+Port no: 80 | Open                   | http            | 0.015683
+Port no: 81 | 10035(closed/filtered) | hosts2-ns       | 1.005417
+Port no: 82 | 10035(closed/filtered) | Unknown         | 1.007001
+Port no: 83 | 10035(closed/filtered) | Unknown         | 1.012728
+Port no: 84 | 10035(closed/filtered) | Unknown         | 1.006693
+Port no: 85 | 10035(closed/filtered) | Unknown         | 1.008313
+Port no: 86 | 10035(closed/filtered) | Unknown         | 1.000720
+Port no: 87 | 10035(closed/filtered) | Unknown         | 1.015609
+Port no: 88 | 10035(closed/filtered) | kerberos        | 1.002452
+Port no: 89 | 10035(closed/filtered) | Unknown         | 1.002406
+Port no: 90 | 10035(closed/filtered) | Unknown         | 1.009487
